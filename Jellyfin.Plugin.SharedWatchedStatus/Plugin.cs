@@ -1,14 +1,14 @@
+using System;
+using System.Collections.Generic;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Common.Plugins;
 using MediaBrowser.Model.Plugins;
 using MediaBrowser.Model.Serialization;
 
-namespace Jellyfin.Plugin.SharedWatchedStatus;
-
 /// <summary>
 /// The main plugin.
 /// </summary>
-public class Plugin: BasePlugin<Configuration.PluginConfiguration>, IHasWebPages
+public class Plugin: BasePlugin<PluginConfiguration>, IHasWebPages
 {
     /// <inheritdoc/>
     public override string Name => "SharedWatchedStatus";
