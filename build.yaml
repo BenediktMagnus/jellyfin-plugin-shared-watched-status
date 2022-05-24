@@ -1,0 +1,15 @@
+---
+name: "SharedWatchedStatus"
+guid: "af7e610f-ed05-4efd-bd69-c2269cf701f2"
+version: "0.1.0.0"
+targetAbi: "10.7.0.0"
+framework: "net6.0"
+overview: "Share the watched status between profiles"
+description: >
+  Share and synchronise the watched status between differen Jellyfin profiles.
+category: "General"
+owner: "Benedikt Magnus"
+artifacts:
+- "Jellyfin.Plugin.SharedWatchedStatus.dll"
+changelog: >
+  Changelog
