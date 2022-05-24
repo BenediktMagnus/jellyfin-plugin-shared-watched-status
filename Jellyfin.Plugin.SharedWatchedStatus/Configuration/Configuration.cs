@@ -1,8 +1,8 @@
 using MediaBrowser.Model.Plugins;
 
-namespace Jellyfin.Plugin.SharedWatchedStatus;
+namespace Jellyfin.Plugin.SharedWatchedStatus.Configuration;
 
-public class Configuration: BasePluginConfiguration
+public class PluginConfiguration: BasePluginConfiguration
 {
 
 }
