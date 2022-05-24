@@ -1,0 +1,8 @@
+# Binary/library files:
+bin/
+obj/
+
+# Editor/IDE files:
+.vscode
+*.code-workspace
+.idea
