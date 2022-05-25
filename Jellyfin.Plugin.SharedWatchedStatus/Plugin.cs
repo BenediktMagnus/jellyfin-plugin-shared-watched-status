@@ -30,7 +30,7 @@ namespace Jellyfin.Plugin.SharedWatchedStatus
 
         public IEnumerable<PluginPageInfo> GetPages()
         {
-            return new PluginPageInfo[0];
+            return Array.Empty<PluginPageInfo>();
         }
     }
 }
