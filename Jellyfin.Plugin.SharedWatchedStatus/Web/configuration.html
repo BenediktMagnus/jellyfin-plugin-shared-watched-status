@@ -1,0 +1,29 @@
+<div id="SharedWatchedStatusConfigurationPage" data-role="page" class="page type-interior pluginConfigurationPage"
+    data-require="emby-input,emby-button,emby-select,emby-checkbox" data-controller="__plugin/sharedwatchedstatusjs">
+    <div data-role="content">
+        <div class="content-primary">
+            <form id="SharedWatchedStatusConfigurationForm">
+
+                <div class="selectContainer">
+                    <select is="emby-select" id="selectUserFrom" name="selectUserFrom"
+                        label="User to share from:"></select>
+                </div>
+
+                <div class="selectContainer">
+                    <select is="emby-select" id="selectUserTo1" name="selectUserTo1" label="User to share to:"></select>
+                </div>
+
+                <div class="selectContainer">
+                    <select is="emby-select" id="selectUserTo2" name="selectUserTo2" label="User to share to:"></select>
+                </div>
+
+                <div>
+                    <button is="emby-button" type="submit" class="raised button-submit block emby-button">
+                        <span>Save</span>
+                    </button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>

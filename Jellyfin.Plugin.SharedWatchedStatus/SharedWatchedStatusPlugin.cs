@@ -33,7 +33,19 @@ namespace Jellyfin.Plugin.SharedWatchedStatus
 
         public IEnumerable<PluginPageInfo> GetPages()
         {
-            return Array.Empty<PluginPageInfo>();
+            return new[]
+            {
+                new PluginPageInfo
+                {
+                    Name = "sharedwatchedstatus",
+                    EmbeddedResourcePath = GetType().Namespace + ".Web.configuration.html",
+                },
+                new PluginPageInfo
+                {
+                    Name = "sharedwatchedstatusjs",
+                    EmbeddedResourcePath = GetType().Namespace + ".Web.configuration.js"
+                }
+            };
         }
     }
 }
