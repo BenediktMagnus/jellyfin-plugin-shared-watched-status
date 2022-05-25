@@ -18,7 +18,7 @@ namespace Jellyfin.Plugin.SharedWatchedStatus
         /// <inheritdoc/>
         public override Guid Id => Guid.Parse("af7e610f-ed05-4efd-bd69-c2269cf701f2");
 
-        public static SharedWatchedStatusPlugin Instance { get; private set; }
+        public static SharedWatchedStatusPlugin? Instance { get; private set; }
 
         /// <summary>
         /// Initialises a new instance for the plugin system.
