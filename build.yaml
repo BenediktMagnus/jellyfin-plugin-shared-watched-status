@@ -1,5 +1,5 @@
 ---
-name: "SharedWatchedStatus"
+name: "Shared Watched Status"
 guid: "af7e610f-ed05-4efd-bd69-c2269cf701f2"
 version: "0.1.0.0"
 targetAbi: "10.7.0.0"

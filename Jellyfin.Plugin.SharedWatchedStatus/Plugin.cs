@@ -11,7 +11,7 @@ using MediaBrowser.Model.Serialization;
 public class Plugin: BasePlugin<PluginConfiguration>, IHasWebPages
 {
     /// <inheritdoc/>
-    public override string Name => "SharedWatchedStatus";
+    public override string Name => "Shared Watched Status";
 
     /// <inheritdoc/>
     public override Guid Id => Guid.Parse("af7e610f-ed05-4efd-bd69-c2269cf701f2");
