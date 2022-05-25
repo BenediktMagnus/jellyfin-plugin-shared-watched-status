@@ -1,6 +1,9 @@
 using MediaBrowser.Model.Plugins;
 
-public class PluginConfiguration: BasePluginConfiguration
+namespace Jellyfin.Plugin.SharedWatchedStatus.Configuration
 {
+    public class PluginConfiguration: BasePluginConfiguration
+    {
 
+    }
 }
